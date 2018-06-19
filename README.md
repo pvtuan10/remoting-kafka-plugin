@@ -64,6 +64,11 @@ helm dep build helm/jenkins-remoting-kafka && \
 ```
 
 4. Stop the demo:
+    5.2a. Create an agent named test with Kafka option.
+
+    5.2b. Or you can create your own custom agent name with the following command (see help or check agent/run.sh to see an example):
+
+        docker-compose run remoting-kafka-agent --help
 
 ```bash
 helm delete --purge demo
