@@ -1,7 +1,7 @@
 version: '2'
 services:
     agent:
-        image: jenkins/remoting-kafka-agent:latest
+        build: .
         volumes:
             - './certs/docker.kafka.server.keystore.jks:/kafka.keystore.jks:ro'
             - './certs/docker.kafka.server.truststore.jks:/kafka.truststore.jks:ro'
