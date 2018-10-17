@@ -1,7 +1,15 @@
 Changelog
 ===
 
-# 1.1,1
+# 1.1.2
+
+Release date: Oct 17, 2018
+
+Bug fix:
+
+* [JENKINS-54130](https://issues.jenkins-ci.org/browse/JENKINS-54130) - Fix Kafka Docker Agent build and update remoting in agent to 3.26.
+
+# 1.1.1
 
 Release date: Oct 03, 2018
 
